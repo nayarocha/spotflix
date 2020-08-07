@@ -12,7 +12,7 @@ function App() {
       <BannerMain
         videoTitle = {dadosIniciais.categorias[0].videos[0].titulo}
         url = {dadosIniciais.categorias[0].videos[0].url}
-        videoDescription = {"Testando video Description"}
+        videoDescription = {" Faz playlist do Spotify no youtube"}
       />
 
 
@@ -35,22 +35,13 @@ function App() {
       />
 
       <Carousel 
-        ignoreFirstVideo 
+        
         category = {dadosIniciais.categorias[3]}
       
       />
 
-      <Carousel 
-        ignoreFirstVideo 
-        category = {dadosIniciais.categorias[4]}
-      
-      />
+   
 
-      <Carousel 
-        ignoreFirstVideo 
-        category = {dadosIniciais.categorias[5]}
-      
-      />
 
 
     </div>
