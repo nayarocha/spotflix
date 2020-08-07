@@ -17,7 +17,7 @@ function App() {
 
 
       <Carousel 
-        ignoreFirstVideo 
+       
         category = {dadosIniciais.categorias[0]}
       
       />
